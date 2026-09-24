@@ -114,6 +114,6 @@ if submitted and not st.session_state.get("lunch_sent", False):
             st.error(f"Email couldn't be sent: {exc}")
         else:
             st.session_state.lunch_sent = True
-            st.success("Lunch choice sent! ❤️")❤️")
+            st.success("Lunch choice sent! ❤️")
 elif st.session_state.get("lunch_sent", False):
     st.success("Lunch choice sent! ❤️")
